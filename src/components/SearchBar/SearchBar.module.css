@@ -1,0 +1,29 @@
+.header {
+  position: fixed;
+  background-color: rgb(205, 231, 136, 0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 12px;
+}
+.form {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+.inpt {
+  border-color: #fff;
+}
+.btn {
+  background-color: #fff;
+  color: gray;
+}
+.inpt:hover,
+.inpt:focus {
+  border-color: gray;
+}
+.btn:hover,
+.btn:focus {
+  background-color: gray;
+  color: #fff;
+}

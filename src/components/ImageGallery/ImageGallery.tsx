@@ -1,17 +1,20 @@
-import ImageCard from "../ImageCard/ImageCard";
+import ImageCard from '../ImageCard/ImageCard';
 
-import style from "./ImageGallery.module.css";
+import style from './ImageGallery.module.css';
 
-function ImageGallery({ images, modalIsOpen }) {
+import { Images } from '../../types';
+import { FC } from 'react';
+
+const ImageGallery: FC<Images> = ({ images, modalIsOpen }: Images) => {
   return (
     <section className={style.section}>
       <ul className={style.list}>
-        {images.map((image) => {
+        {images.map(image => {
           return (
             <li key={image.id} className={style.item}>
               <ImageCard
                 urls={image.urls}
-                alt={image.alt_description}
+                alt_description={image.alt_description}
                 modalIsOpen={modalIsOpen}
               />
             </li>
@@ -20,6 +23,6 @@ function ImageGallery({ images, modalIsOpen }) {
       </ul>
     </section>
   );
-}
+};
 
 export default ImageGallery;

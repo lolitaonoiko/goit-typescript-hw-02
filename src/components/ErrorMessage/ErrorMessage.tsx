@@ -1,6 +1,11 @@
-import style from "./ErrorMessage.module.css";
+import { FC } from 'react';
+import style from './ErrorMessage.module.css';
 
-function ErrorMessage({ onError }) {
+import { ErrorMessageProps } from '../../types';
+
+const ErrorMessage: FC<ErrorMessageProps> = ({
+  onError,
+}: ErrorMessageProps) => {
   return (
     <div className={style.error}>
       <p className={style.text}>
@@ -13,6 +18,6 @@ function ErrorMessage({ onError }) {
       />
     </div>
   );
-}
+};
 
 export default ErrorMessage;

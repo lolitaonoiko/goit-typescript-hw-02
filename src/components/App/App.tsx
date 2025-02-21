@@ -13,7 +13,7 @@ import Loader from '../Loader/Loader';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
 import ImageModal from '../ImageModal/ImageModal';
 
-import { Image } from '../../types';
+import { Image } from './App.types';
 
 const App: FC = () => {
   const [value, setValue] = useState<string | null>(null);

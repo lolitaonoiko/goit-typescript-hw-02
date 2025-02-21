@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import style from './ErrorMessage.module.css';
 
-import { ErrorMessageProps } from '../../types';
+import { ErrorMessageProps } from '../App/App.types';
 
 const ErrorMessage: FC<ErrorMessageProps> = ({
   onError,

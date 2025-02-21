@@ -2,7 +2,7 @@ import ImageCard from '../ImageCard/ImageCard';
 
 import style from './ImageGallery.module.css';
 
-import { Images } from '../../types';
+import { Images } from '../App/App.types';
 import { FC } from 'react';
 
 const ImageGallery: FC<Images> = ({ images, modalIsOpen }: Images) => {

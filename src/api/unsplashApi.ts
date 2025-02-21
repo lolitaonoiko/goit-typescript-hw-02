@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { RequestApiData, UnsplashParams } from '../types';
+import { RequestApiData, UnsplashParams } from '../components/App/App.types';
 
 const key: string = 'AcvZrYO3lEDYHSZ_6ch96lZrXV5-f1TEvieIYnqKcfA';
 axios.defaults.baseURL = 'https://api.unsplash.com/';

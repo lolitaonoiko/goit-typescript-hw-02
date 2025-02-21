@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import style from './LoadMoreBtn.module.css';
-import { LoadMoreBtnProps } from '../../types';
+import { LoadMoreBtnProps } from '../App/App.types';
 
 const LoadMoreBtn: FC<LoadMoreBtnProps> = ({ onClick }: LoadMoreBtnProps) => {
   return (

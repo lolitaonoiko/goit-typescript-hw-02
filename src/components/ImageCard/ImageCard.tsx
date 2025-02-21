@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import style from './ImageCard.module.css';
 
-import { ImageCardProps } from '../../types';
+import { ImageCardProps } from '../App/App.types';
 
 const ImageCard: FC<ImageCardProps> = ({
   urls,

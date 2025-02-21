@@ -1,7 +1,7 @@
 import toast, { Toaster } from 'react-hot-toast';
 import style from './SearchBar.module.css';
 
-import { SearchBarProps } from '../../types';
+import { SearchBarProps } from '../App/App.types';
 
 import { FC, FormEvent } from 'react';
 

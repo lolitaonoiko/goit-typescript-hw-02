@@ -3,7 +3,7 @@ import Modal from 'react-modal';
 import style from './ImageModal.module.css';
 import { FC } from 'react';
 
-import { ImageModalProps } from '../../types';
+import { ImageModalProps } from '../App/App.types';
 
 Modal.setAppElement('#root');
 
